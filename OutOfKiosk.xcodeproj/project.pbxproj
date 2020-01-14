@@ -23,6 +23,7 @@
 		561A199013A68AC2CAB7E557 /* Pods_OutOfKiosk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E77C96B32E43C00A091B8A7 /* Pods_OutOfKiosk.framework */; };
 		FA0C2FC523C3192900598506 /* DetailMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C2FC423C3192900598506 /* DetailMenuController.swift */; };
 		FA1E58AF23C41A79002215BB /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1E58AE23C41A79002215BB /* ProductList.swift */; };
+		FA46F14E23CC6DD300EB7BB8 /* ShoppingListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA46F14D23CC6DD300EB7BB8 /* ShoppingListController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		F5097F4775439F8A0528E7C8 /* Pods-OutOfKiosk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OutOfKiosk.release.xcconfig"; path = "Target Support Files/Pods-OutOfKiosk/Pods-OutOfKiosk.release.xcconfig"; sourceTree = "<group>"; };
 		FA0C2FC423C3192900598506 /* DetailMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMenuController.swift; sourceTree = "<group>"; };
 		FA1E58AE23C41A79002215BB /* ProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
+		FA46F14D23CC6DD300EB7BB8 /* ShoppingListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,8 +71,10 @@
 				3308428823BD7AF000FCF4C0 /* StoreListController.swift */,
 				3308428C23BD81B600FCF4C0 /* FavoriteMenuController.swift */,
 				3308429123BDE67700FCF4C0 /* CafeDetailController.swift */,
+				33259F5823BB017400D44CB0 /* Main.storyboard */,
 				3386079123BF0D89003208AD /* DialogFlowPopUpController.swift */,
 				FA0C2FC423C3192900598506 /* DetailMenuController.swift */,
+				FA46F14D23CC6DD300EB7BB8 /* ShoppingListController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -109,7 +113,6 @@
 			children = (
 				33259F5223BB017400D44CB0 /* AppDelegate.swift */,
 				33259F5423BB017400D44CB0 /* SceneDelegate.swift */,
-				33259F5823BB017400D44CB0 /* Main.storyboard */,
 				33259F5B23BB017500D44CB0 /* Assets.xcassets */,
 				33259F5D23BB017500D44CB0 /* LaunchScreen.storyboard */,
 				33259F6023BB017500D44CB0 /* Info.plist */,
@@ -259,6 +262,7 @@
 				33259F5523BB017400D44CB0 /* SceneDelegate.swift in Sources */,
 				3308428923BD7AF000FCF4C0 /* StoreListController.swift in Sources */,
 				FA1E58AF23C41A79002215BB /* ProductList.swift in Sources */,
+				FA46F14E23CC6DD300EB7BB8 /* ShoppingListController.swift in Sources */,
 				3386079223BF0D89003208AD /* DialogFlowPopUpController.swift in Sources */,
 				3308429223BDE67700FCF4C0 /* CafeDetailController.swift in Sources */,
 			);

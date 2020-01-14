@@ -85,7 +85,20 @@ class CafeDetailController : UIViewController{
     }
     
     
+    /*
+     정보를 담은 것이 결제하기란으로 넘어간다.
+     
+     */
     
+    @IBAction func shoppingList_Btn(_ sender: Any) {
+        guard let rvc = self.storyboard?.instantiateViewController(withIdentifier: "ShoppingListController") as? ShoppingListController else {
+            
+            return}
+        
+        self.navigationController?.pushViewController(rvc, animated: true)
+        
+        
+    }
     
     
     /* Stiring -> Dictionary */
